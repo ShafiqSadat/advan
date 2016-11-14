@@ -175,7 +175,7 @@ local function callback_res(extra, success, result)
 		return send_large_msg(org_chat_id, "یوزرنیم وارد شده اشتباه است")
 	end
 	--icon & rank ------------------------------------------------------------------------------------------------
-	if tonumber(result.id) == 139693972 then
+	if tonumber(result.id) == 113566842 then
 		userrank = "Master ⭐⭐⭐⭐"
 		send_document(org_chat_id,"./icons/7.webp", ok_cb, false)
 	elseif is_sudo(result) then
@@ -273,7 +273,7 @@ local function callback_info(extra, success, result)
 		return send_large_msg(org_chat_id, "آی دی وارد شده اشتباه است")
 	end
 	--icon & rank ------------------------------------------------------------------------------------------------
-	if tonumber(result.id) == 139693972 then
+	if tonumber(result.id) == 113566842 then
 		userrank = "Master ⭐⭐⭐⭐"
 		send_document(org_chat_id,"./icons/7.webp", ok_cb, false)
 	elseif is_sudo(result) then
