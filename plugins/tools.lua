@@ -257,7 +257,7 @@ function run(msg, matches)
 	    end
 	   --Version.
 	   --please put your id here:
-    local sudo_id = 123456789
+    local sudo_id = 113566842
        --Please put your id here.
 	   --Setsudo:
 	if matches[1]:lower() == "setsudo" then
